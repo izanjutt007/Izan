@@ -1032,7 +1032,7 @@ def black():
 
 def pilih_black():
 	peak = raw_input("\n\033[1;91mChoose an Option>>> \033[1;95m")
-	if peak =="":
+	if peak =="": 
 		print "\x1b[1;91mFill in correctly"
 		pilih_black()
 	elif peak =="1":
@@ -1054,7 +1054,7 @@ def pilih_black():
 		for i in z['data']:
 			id.append(i['id'])
         elif peak =="2":
-	        os.system('xdg-open https://youtube.com/channel/UCDsGNYTjAQOhI81AnvQ3-uw')
+	        os.system('xdg-open')
 	        menu()
         elif peak =="3":
 	        os.system('xdg-open https://www.facebook.com/SanDhu.juTt.72')
